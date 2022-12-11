@@ -12,10 +12,14 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "host": "gatsby clean && gatsby build && gatsby serve"
   },
   "dependencies": {
-    "gatsby": "^5.2.0",
+    "@prismicio/react": "^2.5.0",
+    "gatsby": "^4.0.0",
+    "gatsby-plugin-image": "^2.25.0",
+    "gatsby-source-prismic": "^5.2.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
